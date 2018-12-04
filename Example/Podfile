@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ViteUtils_Example' do
+  pod 'ViteUtils', :path => '../'
+
+  target 'ViteUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
