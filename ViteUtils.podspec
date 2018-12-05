@@ -29,7 +29,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ViteUtils/Classes/**/*'
-  
+  s.resources = 'ViteUtils/Assets/ViteUtils.bundle'
+
+  s.dependency 'R.swift'
+
   # s.resource_bundles = {
   #   'ViteUtils' => ['ViteUtils/Assets/*.png']
   # }

@@ -10,11 +10,11 @@
 		370F9A64C9AC2BDF6EDC6C16 /* Pods_ViteUtils_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4C808AAD1D81EB2B29CCBF /* Pods_ViteUtils_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6E9B5F2DB21D188DE87C8C53 /* Pods_ViteUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836FBABD60F358F556C33871 /* Pods_ViteUtils_Tests.framework */; };
+		8EB0661721B80E1F0028D47F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB0661221B80E1F0028D47F /* Localizable.strings */; };
+		8EB0661821B80E1F0028D47F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB0661521B80E1F0028D47F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +35,14 @@
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ViteUtils_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViteUtils_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D4C808AAD1D81EB2B29CCBF /* Pods_ViteUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViteUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FBABD60F358F556C33871 /* Pods_ViteUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViteUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB0661321B80E1F0028D47F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8EB0661621B80E1F0028D47F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
 		A64552F9B952349B5FBD58E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D3D09A82F0FAF3E8DA2536B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E46507D8A2E35B140CBD7A34 /* Pods-ViteUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViteUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViteUtils_Example/Pods-ViteUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,9 +106,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				8EB0661121B80E1F0028D47F /* en.lproj */,
+				8EB0661421B80E1F0028D47F /* zh-Hans.lproj */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for ViteUtils";
@@ -150,6 +150,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8EB0661121B80E1F0028D47F /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0661221B80E1F0028D47F /* Localizable.strings */,
+			);
+			name = en.lproj;
+			path = ../../ViteUtils/Assets/ViteUtils.bundle/en.lproj;
+			sourceTree = "<group>";
+		};
+		8EB0661421B80E1F0028D47F /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0661521B80E1F0028D47F /* Localizable.strings */,
+			);
+			name = "zh-Hans.lproj";
+			path = "../../ViteUtils/Assets/ViteUtils.bundle/zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
 		AC55AC720110859744C33960 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +185,7 @@
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ViteUtils_Example" */;
 			buildPhases = (
 				56F7187393381A12D813DFD0 /* [CP] Check Pods Manifest.lock */,
+				8EB0660521B7CF320028D47F /* Run.R.Swift */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -228,6 +247,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -245,9 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				8EB0661821B80E1F0028D47F /* Localizable.strings in Resources */,
+				8EB0661721B80E1F0028D47F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,18 +334,38 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Example/Pods-ViteUtils_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/ViteUtils/ViteUtils.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViteUtils.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Example/Pods-ViteUtils_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8EB0660521B7CF320028D47F /* Run.R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Run.R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\nmv \"$SRCROOT/R.generated.swift\" \"$SRCROOT/../ViteUtils/Classes\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -358,20 +398,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		8EB0661221B80E1F0028D47F /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				8EB0661321B80E1F0028D47F /* en */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		8EB0661521B80E1F0028D47F /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				8EB0661621B80E1F0028D47F /* zh-Hans */,
 			);
-			name = LaunchScreen.xib;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -468,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -482,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViteUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -497,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViteUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

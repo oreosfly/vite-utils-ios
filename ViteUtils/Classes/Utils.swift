@@ -8,5 +8,6 @@
 import Foundation
 
 public func libName() -> String {
-    return "ViteUtils"
+    object_setClass(Bundle(for: AnyLanguageBundle.self), AnyLanguageBundle.self)
+    return R.string.localizable.testA()
 }
