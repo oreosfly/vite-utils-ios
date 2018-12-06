@@ -13,8 +13,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6E9B5F2DB21D188DE87C8C53 /* Pods_ViteUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836FBABD60F358F556C33871 /* Pods_ViteUtils_Tests.framework */; };
-		8EB0661721B80E1F0028D47F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB0661221B80E1F0028D47F /* Localizable.strings */; };
-		8EB0661821B80E1F0028D47F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB0661521B80E1F0028D47F /* Localizable.strings */; };
+		8E445D8621B91D8500A7CE84 /* ViteUtils.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E445D8521B91D8500A7CE84 /* ViteUtils.xcassets */; };
+		8E445D9121B928C000A7CE84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E445D8C21B928C000A7CE84 /* Localizable.strings */; };
+		8E445D9221B928C000A7CE84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E445D8F21B928C000A7CE84 /* Localizable.strings */; };
+		8E445D9421B92BD200A7CE84 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E445D9321B92BD200A7CE84 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D4C808AAD1D81EB2B29CCBF /* Pods_ViteUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViteUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FBABD60F358F556C33871 /* Pods_ViteUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViteUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EB0661321B80E1F0028D47F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		8EB0661621B80E1F0028D47F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		8E445D8521B91D8500A7CE84 /* ViteUtils.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ViteUtils.xcassets; path = ../../ViteUtils/Assets/ViteUtils.bundle/ViteUtils.xcassets; sourceTree = "<group>"; };
+		8E445D8D21B928C000A7CE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8E445D9021B928C000A7CE84 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		8E445D9321B92BD200A7CE84 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A64552F9B952349B5FBD58E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D3D09A82F0FAF3E8DA2536B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E46507D8A2E35B140CBD7A34 /* Pods-ViteUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViteUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViteUtils_Example/Pods-ViteUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,8 +110,10 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				8EB0661121B80E1F0028D47F /* en.lproj */,
-				8EB0661421B80E1F0028D47F /* zh-Hans.lproj */,
+				8E445D9321B92BD200A7CE84 /* Launch Screen.storyboard */,
+				8E445D8B21B928C000A7CE84 /* en.lproj */,
+				8E445D8E21B928C000A7CE84 /* zh-Hans.lproj */,
+				8E445D8521B91D8500A7CE84 /* ViteUtils.xcassets */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -150,19 +156,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8EB0661121B80E1F0028D47F /* en.lproj */ = {
+		8E445D8B21B928C000A7CE84 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				8EB0661221B80E1F0028D47F /* Localizable.strings */,
+				8E445D8C21B928C000A7CE84 /* Localizable.strings */,
 			);
 			name = en.lproj;
 			path = ../../ViteUtils/Assets/ViteUtils.bundle/en.lproj;
 			sourceTree = "<group>";
 		};
-		8EB0661421B80E1F0028D47F /* zh-Hans.lproj */ = {
+		8E445D8E21B928C000A7CE84 /* zh-Hans.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				8EB0661521B80E1F0028D47F /* Localizable.strings */,
+				8E445D8F21B928C000A7CE84 /* Localizable.strings */,
 			);
 			name = "zh-Hans.lproj";
 			path = "../../ViteUtils/Assets/ViteUtils.bundle/zh-Hans.lproj";
@@ -208,6 +214,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				AF572567DC7C751487014305 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				8EB0661821B80E1F0028D47F /* Localizable.strings in Resources */,
-				8EB0661721B80E1F0028D47F /* Localizable.strings in Resources */,
+				8E445D9221B928C000A7CE84 /* Localizable.strings in Resources */,
+				8E445D9121B928C000A7CE84 /* Localizable.strings in Resources */,
+				8E445D9421B92BD200A7CE84 /* Launch Screen.storyboard in Resources */,
+				8E445D8621B91D8500A7CE84 /* ViteUtils.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +344,9 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Example/Pods-ViteUtils_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ViteUtils/ViteUtils.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -342,6 +354,9 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViteUtils.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +381,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\nmv \"$SRCROOT/R.generated.swift\" \"$SRCROOT/../ViteUtils/Classes\"\n";
+		};
+		AF572567DC7C751487014305 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Tests/Pods-ViteUtils_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Tests/Pods-ViteUtils_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -398,18 +435,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8EB0661221B80E1F0028D47F /* Localizable.strings */ = {
+		8E445D8C21B928C000A7CE84 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EB0661321B80E1F0028D47F /* en */,
+				8E445D8D21B928C000A7CE84 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		8EB0661521B80E1F0028D47F /* Localizable.strings */ = {
+		8E445D8F21B928C000A7CE84 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EB0661621B80E1F0028D47F /* zh-Hans */,
+				8E445D9021B928C000A7CE84 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -528,7 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -544,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -565,7 +602,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViteUtils_Example.app/ViteUtils_Example";
 			};
 			name = Debug;
@@ -583,7 +620,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViteUtils_Example.app/ViteUtils_Example";
 			};
 			name = Release;

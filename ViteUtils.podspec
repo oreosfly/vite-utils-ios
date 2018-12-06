@@ -27,11 +27,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
   s.source_files = 'ViteUtils/Classes/**/*'
   s.resources = 'ViteUtils/Assets/ViteUtils.bundle'
 
   s.dependency 'R.swift'
+  s.dependency 'RxSwift'
+  s.dependency 'SnapKit'
 
   # s.resource_bundles = {
   #   'ViteUtils' => ['ViteUtils/Assets/*.png']

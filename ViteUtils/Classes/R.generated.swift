@@ -5,6 +5,7 @@
 
 import Foundation
 import Rswift
+import UIKit
 
 /// This `R` struct is generated and contains references to static resources.
 struct R: Rswift.Validatable {
@@ -15,43 +16,29 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
-  /// This `R.color` struct is generated, and contains static references to 0 colors.
-  struct color {
-    fileprivate init() {}
-  }
-  
-  /// This `R.file` struct is generated, and contains static references to 0 files.
-  struct file {
-    fileprivate init() {}
-  }
-  
-  /// This `R.font` struct is generated, and contains static references to 0 fonts.
-  struct font {
-    fileprivate init() {}
-  }
-  
-  /// This `R.image` struct is generated, and contains static references to 0 images.
+  /// This `R.image` struct is generated, and contains static references to 1 images.
   struct image {
+    /// Image `icon_nav_back_black`.
+    static let icon_nav_back_black = Rswift.ImageResource(bundle: R.hostingBundle, name: "icon_nav_back_black")
+    
+    /// `UIImage(named: "icon_nav_back_black", bundle: ..., traitCollection: ...)`
+    static func icon_nav_back_black(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.icon_nav_back_black, compatibleWith: traitCollection)
+    }
+    
     fileprivate init() {}
   }
   
-  /// This `R.nib` struct is generated, and contains static references to 0 nibs.
-  struct nib {
-    fileprivate init() {}
-  }
-  
-  /// This `R.reuseIdentifier` struct is generated, and contains static references to 0 reuse identifiers.
-  struct reuseIdentifier {
-    fileprivate init() {}
-  }
-  
-  /// This `R.segue` struct is generated, and contains static references to 0 view controllers.
-  struct segue {
-    fileprivate init() {}
-  }
-  
-  /// This `R.storyboard` struct is generated, and contains static references to 0 storyboards.
+  /// This `R.storyboard` struct is generated, and contains static references to 1 storyboards.
   struct storyboard {
+    /// Storyboard `Launch Screen`.
+    static let launchScreen = _R.storyboard.launchScreen()
+    
+    /// `UIStoryboard(name: "Launch Screen", bundle: ...)`
+    static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
+    }
+    
     fileprivate init() {}
   }
   
@@ -79,7 +66,7 @@ struct R: Rswift.Validatable {
   
   fileprivate struct intern: Rswift.Validatable {
     fileprivate static func validate() throws {
-      // There are no resources to validate
+      try _R.validate()
     }
     
     fileprivate init() {}
@@ -90,12 +77,30 @@ struct R: Rswift.Validatable {
   fileprivate init() {}
 }
 
-struct _R {
-  struct nib {
-    fileprivate init() {}
+struct _R: Rswift.Validatable {
+  static func validate() throws {
+    try storyboard.validate()
   }
   
-  struct storyboard {
+  struct storyboard: Rswift.Validatable {
+    static func validate() throws {
+      try launchScreen.validate()
+    }
+    
+    struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = UIKit.UIViewController
+      
+      let bundle = R.hostingBundle
+      let name = "Launch Screen"
+      
+      static func validate() throws {
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
     fileprivate init() {}
   }
   

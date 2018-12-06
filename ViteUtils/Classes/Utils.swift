@@ -8,5 +8,5 @@
 import Foundation
 
 public func libName() -> String {
-    return R.string.localizable.testString()
+    return ""//R.string.localizable.testString()
 }

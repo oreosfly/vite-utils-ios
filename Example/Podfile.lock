@@ -1,27 +1,40 @@
 PODS:
-  - R.swift (4.0.0):
-    - R.swift.Library (~> 4.0.0)
-  - R.swift.Library (4.0.0)
+  - R.swift (5.0.0.alpha.3):
+    - R.swift.Library (~> 5.0.0.alpha.2)
+  - R.swift.Library (5.0.0.alpha.2)
+  - RxAtomic (4.4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SnapKit (4.2.0)
   - ViteUtils (0.1.0):
     - R.swift
+    - RxSwift
+    - SnapKit
 
 DEPENDENCIES:
+  - R.swift (= 5.0.0.alpha.3)
   - ViteUtils (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - R.swift
     - R.swift.Library
+    - RxAtomic
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   ViteUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
-  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
-  ViteUtils: 2a023c084e4a2e522da9ded856a8b4bb08b20c2e
+  R.swift: ca4207ecc94545a1611ca0b2ae1197458b6ba30a
+  R.swift.Library: 3c21b823839bf5a6769dc7f96cb44479dab51b1b
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  ViteUtils: b73ea9db05a71dc66295ae8ff1e1a954e55b474b
 
-PODFILE CHECKSUM: c04d61bd677c087ddf6bb56fb2c916680a664a6c
+PODFILE CHECKSUM: 506e2f6f3e51f27613ec3dc1f6cdf6333a212322
 
 COCOAPODS: 1.5.3

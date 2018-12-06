@@ -6,6 +6,7 @@ target 'ViteUtils_Example' do
   target 'ViteUtils_Tests' do
     inherit! :search_paths
 
+    pod 'R.swift', '5.0.0.alpha.3'
     
   end
 end
