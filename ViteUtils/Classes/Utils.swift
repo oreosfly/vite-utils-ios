@@ -8,6 +8,5 @@
 import Foundation
 
 public func libName() -> String {
-    object_setClass(Bundle(for: AnyLanguageBundle.self), AnyLanguageBundle.self)
-    return R.string.localizable.testA()
+    return R.string.localizable.testString()
 }
