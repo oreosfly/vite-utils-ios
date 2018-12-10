@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
   s.dependency 'RxCocoa'
   s.dependency 'XCGLogger'
   s.dependency 'CryptoSwift'
+  s.dependency 'ObjectMapper'
 
   # s.resource_bundles = {
   #   'ViteUtils' => ['ViteUtils/Assets/*.png']
