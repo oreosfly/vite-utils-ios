@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
   s.dependency 'R.swift'
   s.dependency 'RxSwift'
   s.dependency 'SnapKit'
+  s.dependency 'RxCocoa'
 
   # s.resource_bundles = {
   #   'ViteUtils' => ['ViteUtils/Assets/*.png']

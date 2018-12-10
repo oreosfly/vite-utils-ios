@@ -3,11 +3,14 @@ PODS:
     - R.swift.Library (~> 5.0.0.alpha.2)
   - R.swift.Library (5.0.0.alpha.2)
   - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
   - RxSwift (4.4.0):
     - RxAtomic (~> 4.4)
   - SnapKit (4.2.0)
   - ViteUtils (0.1.0):
     - R.swift
+    - RxCocoa
     - RxSwift
     - SnapKit
 
@@ -20,6 +23,7 @@ SPEC REPOS:
     - R.swift
     - R.swift.Library
     - RxAtomic
+    - RxCocoa
     - RxSwift
     - SnapKit
 
@@ -31,9 +35,10 @@ SPEC CHECKSUMS:
   R.swift: ca4207ecc94545a1611ca0b2ae1197458b6ba30a
   R.swift.Library: 3c21b823839bf5a6769dc7f96cb44479dab51b1b
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  ViteUtils: b73ea9db05a71dc66295ae8ff1e1a954e55b474b
+  ViteUtils: 3cc76cf490230b6f9f6620cf028a6e6458c398ae
 
 PODFILE CHECKSUM: 506e2f6f3e51f27613ec3dc1f6cdf6333a212322
 
