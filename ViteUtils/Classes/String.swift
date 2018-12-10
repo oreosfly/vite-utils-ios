@@ -13,7 +13,7 @@ import CryptoSwift
 extension String {
 
     //fetch substring as old
-    func subStringInRange(_ r: Range<Int>) -> String? {
+    public func subStringInRange(_ r: Range<Int>) -> String? {
         if r.lowerBound < 0 || r.upperBound > self.count {
             return nil
         }
@@ -22,7 +22,7 @@ extension String {
         return String(self[startIndex..<endIndex])
     }
 
-    func toEncryptKey(salt: String) -> String {
+    public func toEncryptKey(salt: String) -> String {
         let index = salt.count / 2
         let first = (salt as NSString).substring(to: index) as String
         let second = (salt as NSString).substring(from: index) as String
