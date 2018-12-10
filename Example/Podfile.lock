@@ -1,5 +1,7 @@
 PODS:
   - CryptoSwift (0.13.1)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
   - ObjcExceptionBridging (1.0.1):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
@@ -13,13 +15,16 @@ PODS:
   - RxSwift (4.4.0):
     - RxAtomic (~> 4.4)
   - SnapKit (4.2.0)
+  - Then (2.4.0)
   - ViteUtils (0.1.0):
     - CryptoSwift
+    - "NSObject+Rx"
     - ObjectMapper
     - R.swift
     - RxCocoa
     - RxSwift
     - SnapKit
+    - Then
     - XCGLogger
   - XCGLogger (6.1.0):
     - XCGLogger/Core (= 6.1.0)
@@ -33,6 +38,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CryptoSwift
+    - "NSObject+Rx"
     - ObjcExceptionBridging
     - ObjectMapper
     - R.swift
@@ -41,6 +47,7 @@ SPEC REPOS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - Then
     - XCGLogger
 
 EXTERNAL SOURCES:
@@ -49,6 +56,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
   R.swift: ca4207ecc94545a1611ca0b2ae1197458b6ba30a
@@ -57,7 +65,8 @@ SPEC CHECKSUMS:
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  ViteUtils: 1de9b2791df1aadda02a05cea631fc3692fb303b
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+  ViteUtils: 0ba2d9b5921678a14a3bf9958b3e618b1d2bb64b
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
 PODFILE CHECKSUM: 506e2f6f3e51f27613ec3dc1f6cdf6333a212322
