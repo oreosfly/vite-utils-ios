@@ -40,7 +40,8 @@ Pod::Spec.new do |s|
   s.dependency 'CryptoSwift'
   s.dependency 'ObjectMapper'
   s.dependency 'Then'
-  s.dependency  'NSObject+Rx'
+  s.dependency 'NSObject+Rx'
+  s.dependency 'SwiftyJSON'
 
   # s.resource_bundles = {
   #   'ViteUtils' => ['ViteUtils/Assets/*.png']
