@@ -37,14 +37,14 @@ public class ViteUtilsLocalizationService: NSObject {
             for (key, value) in cacheTextDic where key.hasPrefix(prefix) {
                 dic[(key as NSString).substring(from: prefix.count) as String] = value
             }
-            self.cacheTextDic = dic as! [String : String]
+            self.cacheTextDic = dic as! [String: String]
             self.currentLanguage = language
         }
     }
 }
 
 private class ViteUtilsLanguageBundle: Bundle {
-    
+
     override func localizedString(forKey key: String, value: String?, table tableName: String?) -> String {
 
         if let ret = ViteUtilsLocalizationService.sharedInstance.cacheTextDic[key] {

@@ -15,6 +15,8 @@ PODS:
   - RxSwift (4.4.0):
     - RxAtomic (~> 4.4)
   - SnapKit (4.2.0)
+  - SwiftLint (0.29.1)
+  - SwiftyJSON (4.2.0)
   - Then (2.4.0)
   - ViteUtils (0.0.1):
     - CryptoSwift
@@ -24,6 +26,7 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - SwiftyJSON
     - Then
     - XCGLogger
   - XCGLogger (6.1.0):
@@ -33,6 +36,7 @@ PODS:
 
 DEPENDENCIES:
   - R.swift (= 5.0.0.alpha.3)
+  - SwiftLint
   - ViteUtils (from `../`)
 
 SPEC REPOS:
@@ -47,6 +51,8 @@ SPEC REPOS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - SwiftLint
+    - SwiftyJSON
     - Then
     - XCGLogger
 
@@ -65,10 +71,12 @@ SPEC CHECKSUMS:
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftLint: 6772320e40b52049053a518c17db9b0634a0b45a
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
-  ViteUtils: 6e82ba032f50c13a9868a50ed2a261aa2c501e5a
+  ViteUtils: 42d4149fd1d062f1cc08c6d20668a396032e4fe7
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: 506e2f6f3e51f27613ec3dc1f6cdf6333a212322
+PODFILE CHECKSUM: 6f912cdd83188090fab4c16d28570eae4a3c2fbf
 
 COCOAPODS: 1.5.3

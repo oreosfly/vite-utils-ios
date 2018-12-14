@@ -13,8 +13,8 @@ import RxCocoa
 import Then
 import NSObject_Rx
 
-fileprivate let kScreenH = UIScreen.main.bounds.height
-fileprivate let kScreenW = UIScreen.main.bounds.width
+private let kScreenH = UIScreen.main.bounds.height
+private let kScreenW = UIScreen.main.bounds.width
 
 public class AlertAction: NSObject {
 

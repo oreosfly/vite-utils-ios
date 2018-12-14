@@ -13,7 +13,7 @@ import SnapKit
 public class WKWebViewController: UIViewController, WKNavigationDelegate {
     private var bridge: WKWebViewJSBridge!
     private var url: URL!
-    
+
     public init(url: URL) {
         self.url = url
         super.init(nibName: nil, bundle: nil)

@@ -18,11 +18,10 @@ public class WKWebViewJSBridge: NSObject {
     private var base: WKWebViewJSBridgeEngine!
     private var publish: WKWebViewJSBridgePublish!
     #if DEBUG
-    private var whiteList = ["growth.vite.net","reward.vite.net","app.vite.net", "127.0.0.1"]
+    private var whiteList = ["growth.vite.net", "reward.vite.net", "app.vite.net", "127.0.0.1"]
     #else
-    private var whiteList = ["growth.vite.net","reward.vite.net","app.vite.net"]
+    private var whiteList = ["growth.vite.net", "reward.vite.net", "app.vite.net"]
     #endif
-
 
     public init(webView: WKWebView) {
         super.init()
