@@ -6,9 +6,6 @@ PODS:
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
   - ObjectMapper (3.4.1)
-  - R.swift (5.0.0.alpha.3):
-    - R.swift.Library (~> 5.0.0.alpha.2)
-  - R.swift.Library (5.0.0.alpha.2)
   - RxAtomic (4.4.0)
   - RxCocoa (4.4.0):
     - RxSwift (~> 4.0)
@@ -22,7 +19,6 @@ PODS:
     - CryptoSwift
     - "NSObject+Rx"
     - ObjectMapper
-    - R.swift
     - RxCocoa
     - RxSwift
     - SnapKit
@@ -35,7 +31,6 @@ PODS:
     - ObjcExceptionBridging
 
 DEPENDENCIES:
-  - R.swift (= 5.0.0.alpha.3)
   - SwiftLint
   - ViteUtils (from `../`)
 
@@ -45,8 +40,6 @@ SPEC REPOS:
     - "NSObject+Rx"
     - ObjcExceptionBridging
     - ObjectMapper
-    - R.swift
-    - R.swift.Library
     - RxAtomic
     - RxCocoa
     - RxSwift
@@ -65,8 +58,6 @@ SPEC CHECKSUMS:
   "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
-  R.swift: ca4207ecc94545a1611ca0b2ae1197458b6ba30a
-  R.swift.Library: 3c21b823839bf5a6769dc7f96cb44479dab51b1b
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
@@ -74,9 +65,9 @@ SPEC CHECKSUMS:
   SwiftLint: 6772320e40b52049053a518c17db9b0634a0b45a
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
-  ViteUtils: 42d4149fd1d062f1cc08c6d20668a396032e4fe7
+  ViteUtils: dae3a6591680c217c85111c409db257dde516324
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: 6f912cdd83188090fab4c16d28570eae4a3c2fbf
+PODFILE CHECKSUM: 12f432dc7ab2d1b2815b99cab5f0c41b476991d6
 
 COCOAPODS: 1.5.3

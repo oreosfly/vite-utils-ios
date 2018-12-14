@@ -2,15 +2,11 @@ use_frameworks!
 
 target 'ViteUtils_Example' do
   pod 'ViteUtils', :path => '../'
-  pod 'R.swift', '5.0.0.alpha.3'
-  pod  'SwiftLint'
+  pod 'SwiftLint'
 
 
 
   target 'ViteUtils_Tests' do
     inherit! :search_paths
-
-    pod 'R.swift', '5.0.0.alpha.3'
-    
   end
 end

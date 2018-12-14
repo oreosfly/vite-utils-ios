@@ -13,9 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6E9B5F2DB21D188DE87C8C53 /* Pods_ViteUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836FBABD60F358F556C33871 /* Pods_ViteUtils_Tests.framework */; };
-		74B6A86821C3755A00D0BA5A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74B6A86221C3755900D0BA5A /* Localizable.strings */; };
-		74B6A86921C3755A00D0BA5A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74B6A86521C3755900D0BA5A /* Localizable.strings */; };
-		74B6A86A21C3755A00D0BA5A /* ViteUtils.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B6A86721C3755900D0BA5A /* ViteUtils.xcassets */; };
 		8E445D9421B92BD200A7CE84 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E445D9321B92BD200A7CE84 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -41,9 +38,6 @@
 		607FACE51AFB9204008FA782 /* ViteUtils_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViteUtils_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		74B6A86321C3755900D0BA5A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
-		74B6A86621C3755900D0BA5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		74B6A86721C3755900D0BA5A /* ViteUtils.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ViteUtils.xcassets; path = ../../ViteUtils/Assets/ViteUtils.xcassets; sourceTree = "<group>"; };
 		7D4C808AAD1D81EB2B29CCBF /* Pods_ViteUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViteUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FBABD60F358F556C33871 /* Pods_ViteUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViteUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E445D9321B92BD200A7CE84 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -110,9 +104,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				74B6A86421C3755900D0BA5A /* en.lproj */,
-				74B6A86721C3755900D0BA5A /* ViteUtils.xcassets */,
-				74B6A86121C3755900D0BA5A /* zh-Hans.lproj */,
 				8E445D9321B92BD200A7CE84 /* Launch Screen.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -156,24 +147,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		74B6A86121C3755900D0BA5A /* zh-Hans.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				74B6A86221C3755900D0BA5A /* Localizable.strings */,
-			);
-			name = "zh-Hans.lproj";
-			path = "../../ViteUtils/Assets/zh-Hans.lproj";
-			sourceTree = "<group>";
-		};
-		74B6A86421C3755900D0BA5A /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				74B6A86521C3755900D0BA5A /* Localizable.strings */,
-			);
-			name = en.lproj;
-			path = ../../ViteUtils/Assets/en.lproj;
-			sourceTree = "<group>";
-		};
 		AC55AC720110859744C33960 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +164,6 @@
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ViteUtils_Example" */;
 			buildPhases = (
 				56F7187393381A12D813DFD0 /* [CP] Check Pods Manifest.lock */,
-				8EB0660521B7CF320028D47F /* Run.R.Swift */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -215,7 +187,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				AF572567DC7C751487014305 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,10 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				74B6A86821C3755A00D0BA5A /* Localizable.strings in Resources */,
-				74B6A86921C3755A00D0BA5A /* Localizable.strings in Resources */,
 				8E445D9421B92BD200A7CE84 /* Launch Screen.storyboard in Resources */,
-				74B6A86A21C3755A00D0BA5A /* ViteUtils.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +334,6 @@
 				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -384,7 +351,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -397,46 +363,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Example/Pods-ViteUtils_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8EB0660521B7CF320028D47F /* Run.R.Swift */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Run.R.Swift;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\nsed -i \"\" 's/fileprivate static let hostingBundle = Bundle(for: R.Class.self)/fileprivate static let hostingBundle = Bundle(path: Bundle(for: R.Class.self).path(forResource: \"ViteUtils\", ofType: \"bundle\")!)!/' R.generated.swift\nmv \"$SRCROOT/R.generated.swift\" \"$SRCROOT/../ViteUtils/Classes\"\n";
-		};
-		AF572567DC7C751487014305 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Tests/Pods-ViteUtils_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViteUtils_Tests/Pods-ViteUtils_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -468,25 +394,6 @@
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		74B6A86221C3755900D0BA5A /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B6A86321C3755900D0BA5A /* zh-Hans */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		74B6A86521C3755900D0BA5A /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B6A86621C3755900D0BA5A /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
