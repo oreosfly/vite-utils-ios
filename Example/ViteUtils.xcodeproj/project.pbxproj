@@ -415,7 +415,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\nmv \"$SRCROOT/R.generated.swift\" \"$SRCROOT/../ViteUtils/Classes\"\n";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\nsed -i \"\" 's/fileprivate static let hostingBundle = Bundle(for: R.Class.self)/fileprivate static let hostingBundle = Bundle(path: Bundle(for: R.Class.self).path(forResource: \"ViteUtils\", ofType: \"bundle\")!)!/' R.generated.swift\nmv \"$SRCROOT/R.generated.swift\" \"$SRCROOT/../ViteUtils/Classes\"\n";
 		};
 		AF572567DC7C751487014305 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
